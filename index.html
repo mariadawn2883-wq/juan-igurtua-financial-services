@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Juan Igurtua | Financial Services</title>
+
+<style>
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #17120f;
+    color: #f4e7d8;
+    line-height: 1.6;
+}
+
+header {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+    background:
+        linear-gradient(rgba(23,18,15,.78), rgba(23,18,15,.94)),
+        url("recruiting-flyer.png") center/cover no-repeat;
+}
+
+.hero {
+    max-width: 900px;
+    text-align: center;
+}
+
+.small-title {
+    color: #d5ae83;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: clamp(55px, 10vw, 105px);
+    line-height: .9;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+h1 span {
+    color: #c18b64;
+}
+
+.script {
+    font-size: 38px;
+    font-style: italic;
+    color: #d5ae83;
+    margin-bottom: 25px;
+}
+
+.hero p {
+    max-width: 650px;
+    margin: auto;
+    color: #d1c0ae;
+    font-size: 17px;
+}
+
+.buttons {
+    margin-top: 35px;
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 7px;
+    border: 1px solid #d5ae83;
+    color: #17120f;
+    background: #d5ae83;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.button.outline {
+    background: transparent;
+    color: #d5ae83;
+}
+
+section {
+    padding: 80px 20px;
+    border-top: 1px solid #49372b;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.section-title small {
+    color: #d5ae83;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.section-title h2 {
+    font-size: 50px;
+    margin-top: 10px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.card {
+    padding: 30px;
+    background: #241914;
+    border: 1px solid #49372b;
+}
+
+.card h3 {
+    color: #d5ae83;
+    margin-bottom: 12px;
+}
+
+.card p {
+    color: #cdbbaa;
+}
+
+.about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.box {
+    background: #241914;
+    padding: 40px;
+    border: 1px solid #49372b;
+}
+
+.box h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.box p {
+    color: #cdbbaa;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    padding: 12px 0;
+    border-bottom: 1px solid #49372b;
+    color: #d8c7b5;
+}
+
+li::before {
+    content: "✓";
+    color: #d5ae83;
+    margin-right: 10px;
+}
+
+.apply {
+    text-align: center;
+    background: #211712;
+}
+
+.apply h2 {
+    font-size: 55px;
+    margin-bottom: 15px;
+}
+
+.apply p {
+    max-width: 650px;
+    margin: 0 auto 30px;
+    color: #cdbbaa;
+}
+
+footer {
+    text-align: center;
+    padding: 30px 20px;
+    color: #9e8d7d;
+    font-size: 12px;
+    border-top: 1px solid #49372b;
+}
+
+@media (max-width: 700px) {
+    .cards,
+    .about {
+        grid-template-columns: 1fr;
+    }
+
+    .section-title h2 {
+        font-size: 40px;
+    }
+
+    .apply h2 {
+        font-size: 42px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="hero">
+
+        <div class="small-title">
+            Juan Igurtua Financial Services
+        </div>
+
+        <h1>
+            We're<br>
+            <span>Hiring.</span>
+        </h1>
+
+        <div class="script">
+            Build Your Future
+        </div>
+
+        <p>
+            Looking for a new opportunity in financial services?
+            Learn, grow, build your skills and create a career
+            around the life you want.
+        </p>
+
+        <div class="buttons">
+            <a href="#apply" class="button">
+                Apply Today
+            </a>
+
+            <a href="#opportunity" class="button outline">
+                Learn More
+            </a>
+        </div>
+
+    </div>
+</header>
+
+
+<section id="opportunity">
+
+<div class="container">
+
+<div class="section-title">
+    <small>The Opportunity</small>
+    <h2>Build Your Future</h2>
+</div>
+
+<div class="cards">
+
+<div class="card">
+    <h3>Flexible Schedule</h3>
+    <p>
+        Build your work around your goals,
+        responsibilities and lifestyle.
+    </p>
+</div>
+
+<div class="card">
+    <h3>Training</h3>
+    <p>
+        Learn the skills and knowledge needed
+        to grow in the financial services industry.
+    </p>
+</div>
+
+<div class="card">
+    <h3>Team Support</h3>
+    <p>
+        Work alongside a team focused on
+        learning, development and growth.
+    </p>
+</div>
+
+<div class="card">
+    <h3>Part-Time</h3>
+    <p>
+        Explore an opportunity that can fit
+        alongside your current schedule.
+    </p>
+</div>
+
+<div class="card">
+    <h3>Full-Time</h3>
+    <p>
+        Build toward a full-time career
+        in financial services.
+    </p>
+</div>
+
+<div class="card">
+    <h3>Make An Impact</h3>
+    <p>
+        Help people better understand
+        their financial options and goals.
+    </p>
+</div>
+
+</div>
+</div>
+
+</section>
+
+
+<section>
+
+<div class="container">
+
+<div class="about">
+
+<div class="box">
+
+    <h2>What We Look For</h2>
+
+    <ul>
+        <li>Positive attitude</li>
+        <li>Willingness to learn</li>
+        <li>Strong work ethic</li>
+        <li>Reliable and consistent</li>
+        <li>Desire to grow</li>
+    </ul>
+
+</div>
+
+<div class="box">
+
+    <h2>Why Financial Services?</h2>
+
+    <p>
+        Financial services can provide an opportunity
+        to develop valuable skills while helping people
+        work toward their financial goals.
+    </p>
+
+    <br>
+
+    <p>
+        Whether you're looking for part-time work,
+        a new career path or additional income,
+        start by learning more about the opportunity.
+    </p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<section class="apply" id="apply">
+
+<div class="container">
+
+    <h2>Ready To Build Your Future?</h2>
+
+    <p>
+        Take the first step and connect with
+        Juan Igurtua to learn more about the opportunity.
+    </p>
+
+    <a
+        class="button"
+        href="mailto:YOUR-EMAIL-HERE"
+    >
+        Contact Juan
+    </a>
+
+</div>
+
+</section>
+
+
+<footer>
+
+    © 2026 Juan Igurtua Financial Services
+
+</footer>
+
+</body>
+  </html>
